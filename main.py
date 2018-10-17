@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "success"
+    return "成功"
 
 if __name__ == "__main__":
     app.run(debug=True)
